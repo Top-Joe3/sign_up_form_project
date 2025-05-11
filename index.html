@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="left">
+        <div class="transparent">
+            <img src="./odin-lined.png">
+            <p>ODIN</p>
+        </div>
+        <figure>
+            <figcaption>
+              Photo by 
+              <a href="https://unsplash.com/photos/25xggax4bSA" target="_blank" rel="noopener noreferrer">Halie_West</a> 
+              on 
+              <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a>
+            </figcaption>
+          </figure>
+    </div>
+    <div class="right">
+        <p>
+            <strong>This is not a real online service!</strong> You know you need something like this in your life to help you realize your deepest dreams. 
+            Sign up <em>now</em> to get started. <br><br> You <em>know</em> you want to.
+        </p>
+        <form action="does-not-exist.com" method="post">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="myform">
+                    <div class="group1">
+                        <label for="first-name">
+                            FIRST NAME<br>
+                            <input type="text", id="first-name", name="first_name", placeholder="Thor">
+                        </label>
+                        <label for="email">
+                            EMAIL<br>
+                            <input type="email", id="email", name="user_email">
+                        </label>
+                        <label for="paswword">
+                            PASSWORD<br>
+                            <input type="password", id="password", name="user_password", required>
+                        </label>
+                    </div>
+                    <div class="group2">
+                        <label for="last-name">
+                            LAST NAME<br>
+                            <input type="text", id="last-name", name="last_name", placeholder="Odinson">
+                        </label>
+                        <label for="phone-number">
+                            PHONE NUMBER<br>
+                            <input type="number", id="phone-number", name="phone_number">
+                        </label>
+                        <label for="confirm-password">
+                            CONFIRM PASSWORD<br>
+                            <input type="password", id="confirm-password", name="confirm_password", required>
+                        </label>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <button type="submit">Create Account</button>
+        <p>Already have an account? Log in</p>
+    </div>
+</body>
+</html>
